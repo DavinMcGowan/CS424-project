@@ -1,2 +1,2 @@
 # CS424-project
-My GJC Project
+My GJC Project.
