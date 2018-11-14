@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for e in eventlist %}
+    <p>
+    
+    <a href="{% url 'event_profile' event_id=e.id %}">{{ e.event_name }}</a>
+    </p>
+{% endfor %}
+
+{% endblock %}
